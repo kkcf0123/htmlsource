@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Welcome to My Homepage</h1>
+    <div class="intro">
+      <p>My name is Donald <span id="Lastname">Duck.</span></p>
+
+      <p id="my-Address">I live in Duckburg</p>
+
+      <p>I have many friends:</p>
+    </div>
+
+    <ul id="Listfriends">
+      <li>Goofy</li>
+      <li>Mickey</li>
+      <li>Daisy</li>
+      <li>Pluto</li>
+    </ul>
+    <p class="myquote">
+      All my friends are great!<br />
+      But I really like Daisy!!
+    </p>
+
+    <p lang="it" title="Hello beautiful">Ciao bella</p>
+
+    <h3>We are all animals!</h3>
+    <p><b>My latest discoveries have led me to believe that we are all animals:</b></p>
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Type of Animal</th>
+      </tr>
+      <tr>
+        <td>Mickey</td>
+        <td>Mouse</td>
+      </tr>
+      <tr>
+        <td>Goofey</td>
+        <td>Dog</td>
+      </tr>
+      <tr>
+        <td>Daisy</td>
+        <td>Duck</td>
+      </tr>
+      <tr>
+        <td>Pluto</td>
+        <td>Dog</td>
+      </tr>
+    </table>
+    <form>
+      <h4>Subscribe to my newsletter:</h4>
+      <div>
+        <label for="">Name:</label>
+        <input type="text" style="width: 150px" class="markup" />
+      </div>
+      <div>
+        <label for="">E-mail:</label>
+        <input type="email" style="width: 150px" class="markup" />
+      </div>
+      <div class="noSel">
+        <label for="">Female:</label>
+        <input name="rr" type="radio" id="rr1" checked="checked" />
+        <label for="">Male:</label>
+        <input name="rr" type="radio" id="rr2" />
+        <label for=""> Other:</label>
+        <input name="rr" type="radio" id="rr3" disabled="disabled" />
+      </div>
+      <h4>Newscategories:</h4>
+      <div>
+        <label for="">Ducks:</label>
+        <input id="cc1" type="checkbox" checked="checked" />
+      </div>
+      <div>
+        <label for="">Dogs:</label>
+        <input id="cc2" type="checkbox" />
+      </div>
+      <div>
+        <label for="">Humans:</label>
+        <input id="cc3" type="checkbox" />
+      </div>
+      <p class="noSel">Your lucky number (between 1 and 10): <input type="number" min="1" max="10" value="7" onchange="changeLuckyNumber(this)" /></p>
+    </form>
+  </body>
+</html>
